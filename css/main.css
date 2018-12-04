@@ -1,0 +1,19 @@
+html {
+  background-image: url(../images/sloth-bg.svg);
+  background-size: 48px;
+  background-color: #bea586;
+  font-family: Verdana;
+}
+
+h1 {
+  font-family: Georgia;
+}
+
+.first-image {
+  border-top: 2px;
+  border-bottom: 2px;
+}
+
+.figcaption {
+  font-style: italic;
+}
