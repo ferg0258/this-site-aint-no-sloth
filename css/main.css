@@ -5,11 +5,18 @@ html {
   font-family: Verdana;
 }
 
+main {
+  background-color: #fff;
+}
+
 h1 {
   font-family: Georgia;
+  font-weight: bold;
   color: #fff;
   text-shadow: 1px 2px 3px #000;
   background: linear-gradient(to bottom, rgba(28, 14, 0, .5), rgba(28, 14, 0, .1));
+  border-top: 3px solid #fff;
+  margin-top: .1em;
 }
 
 .first-image {
@@ -17,11 +24,17 @@ h1 {
   border-top: 2px;
   border-bottom: 2px;
   position: relative;
-  height: 20em;
+  height: 16em;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.figcaption {
+figcaption {
   font-style: italic;
+  background-color: #fff;
+  border-bottom: 2px solid #bea586;
+}
+
+@media only screen and (min-width: 960em){
+
 }
